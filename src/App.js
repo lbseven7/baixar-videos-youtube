@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import VideoPlayer from './componentes/VideoPlayer.js';
 
 function App() {
+  const videoId = {
+    video1: 'gepG3nMl-yM',
+    video2: 'VUVPkoByTn4'
+  };
+  
+  const apiKey = 'AIzaSyCJ_zYDVr-C1Uem7I_LNOoIFuQ-Ltb7KU4';
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <VideoPlayer videoId={videoId.video1} apiKey={apiKey} />
+       <VideoPlayer videoId={videoId.video2} apiKey={apiKey} />
     </div>
   );
 }
 
 export default App;
+
