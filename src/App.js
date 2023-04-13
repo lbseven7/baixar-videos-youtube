@@ -91,8 +91,8 @@
 
 
 import React, { useState } from 'react';
-import VideoPlayer from './componentes/VideoPlayer.jsx';
-import { VideoContainer } from './componentes/style/VideoPlayer.styles';
+import VideoPlayer from './componentes/VideoPlayer/VideoPlayer.jsx';
+import { VideoContainer } from './componentes/VideoPlayer/style/VideoPlayer.styles.jsx';
 
 function App() {
   const [videoId, setVideoId] = useState('');
