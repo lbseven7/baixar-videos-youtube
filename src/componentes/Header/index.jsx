@@ -11,7 +11,7 @@ function Header(props) {
     <header>
       <form onSubmit={handleSubmit}>
         <input type="submit" placeholder='Buscar vídeos' name='searchInput' />
-        <button type='submit'>Buscar</button>
+        <button onClick={handleSubmit}>Buscar</button>
       </form>
     </header>
   )
