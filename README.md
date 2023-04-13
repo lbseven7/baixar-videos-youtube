@@ -1,5 +1,3 @@
-# baixar-videos-youtube
-
 # Get Vídeos
 
 Este projeto consiste em pegar vídeos do YouTube com JavaScript usando a API do YouTube Data para obter informações sobre um vídeo específico, incluindo seu ID, título, descrição, thumbnail e outras informações.
