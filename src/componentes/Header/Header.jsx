@@ -1,10 +1,11 @@
 import React from 'react';
+import { HeaderContainer } from './style/style';
 
 const Header = () => {
   return (
-    <header>
+    <HeaderContainer>
       <h1>Minha Aplicação do YouTube</h1>
-    </header>
+    </HeaderContainer>
   );
 };
 

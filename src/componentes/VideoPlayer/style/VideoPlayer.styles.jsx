@@ -20,11 +20,11 @@ export const VideoContainer = styled.section`
   }
 
   > input::placeholder {
-    color: #a1a1a1;
+    color: #b9b7b7;
     }
 
   > input:focus {
     outline: none;
-    background: #6a6a6a;
+    background: #656464;
   }
 `;
