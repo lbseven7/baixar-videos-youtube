@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import VideoPlayer from './componentes/VideoPlayer/VideoPlayer.jsx';
 import { VideoContainer } from './componentes/VideoPlayer/style/VideoPlayer.styles.jsx';
-// import Header from './componentes/Header/index.jsx';
+import Header from './componentes/Header/Header.jsx';
 
 function App() {
   const [videoId, setVideoId] = useState('');
@@ -48,7 +48,7 @@ function App() {
 
   return (
     <VideoContainer>
-      {/* <Header /> */}
+      <Header />
       {searchInput()}
       {videos.length === 0 ? (
         <p>Insira o ID do vídeo acima para visualizar o vídeo.</p>
